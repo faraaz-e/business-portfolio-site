@@ -1,0 +1,138 @@
+::selection {
+    background-color: rgb(176, 213, 234);
+    color: white;
+}
+
+#viewGallery:hover{
+    font-weight: bolder;
+}
+
+/******** ANIMATIONS *********/
+
+/* FADE-IN-UP ANIMATION */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,60px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,60px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+/* FADE-IN-LEFT ANIMATION */
+
+@keyframes fadeInLeft {
+    from {
+        transform: translate3d(-60px,0,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        transform: translate3d(-60px,0,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animatedFadeInLeft {
+    opacity: 0
+}
+
+.fadeInLeft {
+    opacity: 0;
+    animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft;
+}
+
+/* FADE-IN-RIGHT ANIMATION */
+
+@keyframes fadeInRight {
+    from {
+        transform: translate3d(60px,0,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        transform: translate3d(60px,0,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animatedFadeInRight {
+    opacity: 0
+}
+
+.fadeInRight {
+    opacity: 0;
+    animation-name: fadeInRight;
+    -webkit-animation-name: fadeInRight;
+}
+
+.animation-delay{
+    animation-delay: 0.20s;
+}
+.animation-delay2{
+    animation-delay: 0.35s;
+}
+.animation-delay3{
+    animation-delay: 0.50s;
+}
+.animation-delay4{
+    animation-delay: 0.75s;
+}
+.animation-delay5{
+    animation-delay: 0.85s;
+}
+.animation-delay6{
+    animation-delay: 0.95s;
+}
