@@ -11,7 +11,7 @@ const About = () => {
                         </div>
                         <div className="col-12 col-md-6 text-center">
                             <h1 className="fw-bolder d-none d-md-block animated animatedFadeInUp fadeInUp animation-delay5" style={{ fontSize: "150px", color: "rgb(176, 213, 234)" }}> About </h1>
-                            {/* Mobil Responsive */}
+                            {/* Mobile Responsive */}
                             <h1 className="fw-bolder d-block d-md-none animated animatedFadeInUp fadeInUp animation-delay5" style={{ fontSize: "70px", color: "rgb(176, 213, 234)" }}> About </h1>
                             <br/><br/><br/>
                             <div className="row animated animatedFadeInRight fadeInRight animation-delay6">
