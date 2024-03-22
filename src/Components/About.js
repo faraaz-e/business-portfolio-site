@@ -16,7 +16,10 @@ const About = () => {
                             <br/><br/><br/>
                             <div className="row animated animatedFadeInRight fadeInRight animation-delay6">
                                 <h1 className="fw-bolder d-none d-md-block" style={{ fontSize: "100px", color: "rgb(253, 136, 142)" }}> 40+ </h1>
-                                <p className="fw-bolder d-none d-md-block text-secondary" style={{ fontSize: "100px" }}> Client </p>
+                                <p className="fw-bolder d-none d-md-block text-secondary" style={{ fontSize: "100px" }}> Clients </p>
+                                {/* Mobile Responsive */}
+                                <h1 className="fw-bolder d-block d-md-none" style={{ fontSize: "100px", color: "rgb(253, 136, 142)" }}> 40+ </h1>
+                                <p className="fw-bolder d-block d-md-none text-secondary" style={{ fontSize: "100px" }}> Clients </p>
                             </div>
                         
                         </div> 
